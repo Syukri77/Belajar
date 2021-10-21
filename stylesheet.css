@@ -4,7 +4,7 @@
 
 html, body,
 ul, ol, li,
-h1, h2, h3, h4, h5, h6, p, div {
+h2, h3, h4, h5, h6, p, div {
   margin: 0;
   padding: 0;
 }
@@ -13,8 +13,8 @@ body {
   font-family: "sans-serif";
 }
 
-a {
-  text-decoration: none;
+h1 {
+  color: blue;
 }
 
 .clear {
@@ -23,14 +23,15 @@ a {
 
 .container {
   max-width: 100%;
-  min-height: 400px;
+  min-height: 480px;
   margin: 0 auto;
 }
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-image: url(mengenalbadak1.png);
   background-size: cover;
+  background-repeat: no-repeat;
   color: white;
   text-align: center;
 }
@@ -39,7 +40,7 @@ a {
   opacity: 0.7;
   font-size: 45px;
   letter-spacing: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .top-wrapper p {
@@ -54,10 +55,6 @@ a {
 
 .btn-wrapper p {
   margin: 10px 0;
-}
-
-.signup {
-  background-color: #239b76;
 }
 
 .facebook {
@@ -97,7 +94,7 @@ header {
 
 .logo {
   width: 124px;
-  margin-top: 20px;
+  margin-top: auto;
 }
 
 .header-left {
@@ -106,7 +103,7 @@ header {
 
 .header-right {
   float: right;
-  margin-right: -25px;
+  margin-right: 25px;
 }
 
 .header-right a {
@@ -263,4 +260,4 @@ span.menu-icon {
     footer {            
       text-align: center;            
     }
-    }
+    
